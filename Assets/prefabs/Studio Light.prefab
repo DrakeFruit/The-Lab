@@ -1,0 +1,95 @@
+{
+  "RootObject": {
+    "__guid": "536ae1cf-79ab-4485-87d2-14c13764f620",
+    "Flags": 0,
+    "Name": "studio_light_projector",
+    "Position": "500.0103,-240.5778,130.884",
+    "Rotation": "0.09897748,0.2172257,-0.4236996,0.8737818",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "24bd82a4-c4bc-4551-b34d-da79fa23f605",
+        "BodyGroups": 18446744073709551615,
+        "CreateAttachments": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/sbox_props/studio_light_projector/studio_light_projector.vmdl",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "Sandbox.ModelCollider",
+        "__guid": "28a88ff7-d96e-4adc-976e-c9ce63b9e86a",
+        "Friction": null,
+        "IsTrigger": false,
+        "Model": "models/sbox_props/studio_light_projector/studio_light_projector.vmdl",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnObjectTriggerEnter": null,
+        "OnObjectTriggerExit": null,
+        "OnTriggerEnter": null,
+        "OnTriggerExit": null,
+        "Static": false,
+        "Surface": null,
+        "SurfaceVelocity": "0,0,0"
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "8c65868f-1b2e-4079-89f2-c72468167ab3",
+        "Flags": 0,
+        "Name": "Spot Light",
+        "Position": "3.915916,0.00006186962,-0.8147172",
+        "Tags": "light_spot,light",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.SpotLight",
+            "__guid": "954a2d4e-fca3-4c3b-a553-b81ca812c826",
+            "Attenuation": 0.19,
+            "ConeInner": 42.33,
+            "ConeOuter": 57.67,
+            "Cookie": null,
+            "FogMode": "Enabled",
+            "FogStrength": 1,
+            "LightColor": "0.91373,0.98039,1,1",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Radius": 500,
+            "Shadows": true
+          }
+        ]
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [
+    "facepunch.studio_light_projector#29115"
+  ],
+  "__version": 1
+}

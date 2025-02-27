@@ -1,0 +1,24 @@
+{
+  "publish": {
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "The Lab",
+      "Type": "map",
+      "Org": "drakefruit",
+      "Ident": "the_lab",
+      "Schema": 0,
+      "IncludeSourceFiles": true,
+      "Resources": null,
+      "PackageReferences": [],
+      "EditorReferences": null,
+      "IsWhitelistDisabled": false,
+      "Metadata": {
+        "SingleAssetSource": "scenes/the lab.scene",
+        "ParentPackage": "facepunch.sbdm",
+        "GameSupport": [
+          "facepunch.sbdm"
+        ]
+      }
+    }
+  }
+}
