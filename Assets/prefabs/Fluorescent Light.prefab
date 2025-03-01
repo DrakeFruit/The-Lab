@@ -81,7 +81,21 @@
         ]
       }
     ],
-    "__variables": [],
+    "__variables": [
+      {
+        "Id": "Light Color",
+        "Title": "Light Color",
+        "Description": null,
+        "Group": null,
+        "Order": 0,
+        "Targets": [
+          {
+            "Id": "bb50d3fc-53d0-4927-9f86-0795e3528548",
+            "Property": "LightColor"
+          }
+        ]
+      }
+    ],
     "__properties": {
       "FixedUpdateFrequency": 50,
       "MaxFixedUpdates": 5,

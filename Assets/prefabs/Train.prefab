@@ -29717,6 +29717,613 @@
             ]
           }
         ]
+      },
+      {
+        "__guid": "f4479a93-8757-4179-b287-7ddbbf240c49",
+        "Flags": 0,
+        "Name": "ceiling_light_01a",
+        "Position": "-304,56,125.4047",
+        "Rotation": "-0.1183209,0.00000002481472,0.0000002082509,0.9929754",
+        "Scale": "6,6,6",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "33a6259f-4ad7-43d3-bd63-52cc58509e28",
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "MaterialGroup": "on",
+            "MaterialOverride": null,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "4caf9fe4-ac23-4cac-bedc-ce5a597b3e1f",
+            "Friction": null,
+            "IsTrigger": false,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnObjectTriggerEnter": null,
+            "OnObjectTriggerExit": null,
+            "OnTriggerEnter": null,
+            "OnTriggerExit": null,
+            "Static": true,
+            "Surface": null,
+            "SurfaceVelocity": "0,0,0"
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "4d453bef-6ccb-41ab-ba7e-48558241d360",
+            "Flags": 0,
+            "Name": "Point Light",
+            "Position": "-16.8711,0.43918,-4.979492",
+            "Tags": "light_point,light",
+            "Enabled": true,
+            "Components": [
+              {
+                "__type": "Sandbox.PointLight",
+                "__guid": "81461480-d262-4969-b845-31d0f9ed0e00",
+                "Attenuation": 1,
+                "FogMode": "Enabled",
+                "FogStrength": 1,
+                "LightColor": "0.98101,1,0.83721,1",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Radius": 400,
+                "Shadows": true
+              }
+            ]
+          },
+          {
+            "__guid": "74844d2b-819b-4977-8962-af195d56b7fa",
+            "Flags": 0,
+            "Name": "Point Light",
+            "Position": "12,0.439168,-4.979492",
+            "Tags": "light_point,light",
+            "Enabled": true,
+            "Components": [
+              {
+                "__type": "Sandbox.PointLight",
+                "__guid": "26487340-e30e-4ae0-8c9a-df96cdc92c54",
+                "Attenuation": 1,
+                "FogMode": "Enabled",
+                "FogStrength": 1,
+                "LightColor": "0.98101,1,0.83721,1",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Radius": 400,
+                "Shadows": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__guid": "a5d6cf5e-2df3-418b-8a03-d51c19021dda",
+        "Flags": 0,
+        "Name": "ceiling_light_01a (3)",
+        "Position": "-304,-56,125.4047",
+        "Rotation": "0.1183173,0.00000007305389,0.0000001965893,0.9929758",
+        "Scale": "6,6,6",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "70868401-6fcd-46d7-a67e-e7f657c9e564",
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "MaterialGroup": "on",
+            "MaterialOverride": null,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "36004a22-edb7-4948-abcf-a1acbe360003",
+            "Friction": null,
+            "IsTrigger": false,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnObjectTriggerEnter": null,
+            "OnObjectTriggerExit": null,
+            "OnTriggerEnter": null,
+            "OnTriggerExit": null,
+            "Static": true,
+            "Surface": null,
+            "SurfaceVelocity": "0,0,0"
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "2aedb67f-d2f1-4d9d-863b-839821820087",
+            "Flags": 0,
+            "Name": "Point Light",
+            "Position": "-16.87109,-1.161526,-4.804864",
+            "Rotation": "-0.234976,0.000000000000008881784,-0.00000000000004263256,0.9720012",
+            "Tags": "light_point,light",
+            "Enabled": true,
+            "Components": [
+              {
+                "__type": "Sandbox.PointLight",
+                "__guid": "4a76061b-8117-4b2c-b9bc-61f482cffd1b",
+                "Attenuation": 1,
+                "FogMode": "Enabled",
+                "FogStrength": 1,
+                "LightColor": "0.98101,1,0.83721,1",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Radius": 400,
+                "Shadows": true
+              }
+            ]
+          },
+          {
+            "__guid": "a827248e-e94e-4dc7-94e3-10bda455520d",
+            "Flags": 0,
+            "Name": "Point Light",
+            "Position": "12,-1.161538,-4.80486",
+            "Rotation": "-0.234976,0.000000000000008881784,-0.00000000000004263256,0.9720012",
+            "Tags": "light_point,light",
+            "Enabled": true,
+            "Components": [
+              {
+                "__type": "Sandbox.PointLight",
+                "__guid": "16967a1d-f566-4896-b1ac-9be5cca7d2d9",
+                "Attenuation": 1,
+                "FogMode": "Enabled",
+                "FogStrength": 1,
+                "LightColor": "0.98101,1,0.83721,1",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Radius": 400,
+                "Shadows": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__guid": "254fd755-f47c-4bea-9975-a167ef2eec78",
+        "Flags": 0,
+        "Name": "ceiling_light_01a (1)",
+        "Position": "72,56,125.4047",
+        "Rotation": "-0.1183209,0.00000002481472,0.0000002082509,0.9929754",
+        "Scale": "7,6,6",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "b10bacb8-6623-454c-82ab-438863c5e584",
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "MaterialGroup": "on",
+            "MaterialOverride": null,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "e497a8aa-8d1f-45b2-83aa-35019a0a3d6a",
+            "Friction": null,
+            "IsTrigger": false,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnObjectTriggerEnter": null,
+            "OnObjectTriggerExit": null,
+            "OnTriggerEnter": null,
+            "OnTriggerExit": null,
+            "Static": true,
+            "Surface": null,
+            "SurfaceVelocity": "0,0,0"
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "92176b12-5762-4157-895d-d5c166335871",
+            "Flags": 0,
+            "Name": "Point Light",
+            "Position": "-13.51618,0.4391791,-4.979491",
+            "Scale": "0.8571429,1,1",
+            "Tags": "light_point,light",
+            "Enabled": true,
+            "Components": [
+              {
+                "__type": "Sandbox.PointLight",
+                "__guid": "1876660b-8689-44ed-9c55-effc169a3254",
+                "Attenuation": 1,
+                "FogMode": "Enabled",
+                "FogStrength": 1,
+                "LightColor": "0.98101,1,0.83721,1",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Radius": 400,
+                "Shadows": true
+              }
+            ]
+          },
+          {
+            "__guid": "e04ebba5-42bd-4543-aa5f-ba8bd1f726d5",
+            "Flags": 0,
+            "Name": "Point Light",
+            "Position": "11.23046,0.4391671,-4.979491",
+            "Scale": "0.8571429,1,1",
+            "Tags": "light_point,light",
+            "Enabled": true,
+            "Components": [
+              {
+                "__type": "Sandbox.PointLight",
+                "__guid": "0b9c674f-29fb-438e-b48d-102bbe3e7846",
+                "Attenuation": 1,
+                "FogMode": "Enabled",
+                "FogStrength": 1,
+                "LightColor": "0.98101,1,0.83721,1",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Radius": 400,
+                "Shadows": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__guid": "d1443030-4371-4eb4-b6ba-49bb3b079ad3",
+        "Flags": 0,
+        "Name": "ceiling_light_01a (5)",
+        "Position": "72,-56,125.4047",
+        "Rotation": "0.1183173,0.00000007305389,0.0000001965893,0.9929758",
+        "Scale": "7,6,6",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "4cf55550-b0fd-48f4-9de2-b51d368ca256",
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "MaterialGroup": "on",
+            "MaterialOverride": null,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "cdeb2498-0ae4-4060-9da2-e5133a1a4be5",
+            "Friction": null,
+            "IsTrigger": false,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnObjectTriggerEnter": null,
+            "OnObjectTriggerExit": null,
+            "OnTriggerEnter": null,
+            "OnTriggerExit": null,
+            "Static": true,
+            "Surface": null,
+            "SurfaceVelocity": "0,0,0"
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "4aa218f3-fe64-4b46-9ce4-b597594c7349",
+            "Flags": 0,
+            "Name": "Point Light",
+            "Position": "11.23046,0.1344682,-5.118157",
+            "Rotation": "-0.234976,0.000000000000005329071,-0.00000000000004263256,0.9720012",
+            "Scale": "0.8571429,1,1",
+            "Tags": "light_point,light",
+            "Enabled": true,
+            "Components": [
+              {
+                "__type": "Sandbox.PointLight",
+                "__guid": "36057465-c0bf-464f-a824-594a6ac645a9",
+                "Attenuation": 1,
+                "FogMode": "Enabled",
+                "FogStrength": 1,
+                "LightColor": "0.98101,1,0.83721,1",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Radius": 400,
+                "Shadows": true
+              }
+            ]
+          },
+          {
+            "__guid": "e4ac299b-f46c-4fa5-a147-79da6233c0b7",
+            "Flags": 0,
+            "Name": "Point Light",
+            "Position": "-13.51618,0.1344776,-5.118162",
+            "Rotation": "-0.234976,0.000000000000005329071,-0.00000000000004263256,0.9720012",
+            "Scale": "0.8571429,1,1",
+            "Tags": "light_point,light",
+            "Enabled": true,
+            "Components": [
+              {
+                "__type": "Sandbox.PointLight",
+                "__guid": "2e303ccb-0eaa-4aef-8ad1-ef2412fe1d26",
+                "Attenuation": 1,
+                "FogMode": "Enabled",
+                "FogStrength": 1,
+                "LightColor": "0.98101,1,0.83721,1",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Radius": 400,
+                "Shadows": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__guid": "9a9cbced-9986-4ab8-b9f5-24a8199a7b05",
+        "Flags": 0,
+        "Name": "ceiling_light_01a (2)",
+        "Position": "368,56,125.4047",
+        "Rotation": "-0.1183209,0.00000002481472,0.0000002082509,0.9929754",
+        "Scale": "3,6,6",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "1aa30578-6dc7-4b1a-9d27-c3c13fa81610",
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "MaterialGroup": "on",
+            "MaterialOverride": null,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "63140006-4046-4ca5-a437-74d7dd316c1b",
+            "Friction": null,
+            "IsTrigger": false,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnObjectTriggerEnter": null,
+            "OnObjectTriggerExit": null,
+            "OnTriggerEnter": null,
+            "OnTriggerExit": null,
+            "Static": true,
+            "Surface": null,
+            "SurfaceVelocity": "0,0,0"
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "daa2c73b-6564-47ec-a5ac-1af96cfdf73f",
+            "Flags": 0,
+            "Name": "Point Light",
+            "Position": "0.0000003704745,0.4391728,-4.979492",
+            "Scale": "2,1,1",
+            "Tags": "light_point,light",
+            "Enabled": true,
+            "Components": [
+              {
+                "__type": "Sandbox.PointLight",
+                "__guid": "50d945a9-5417-4a8e-bfd1-844ee2e0fcf5",
+                "Attenuation": 1,
+                "FogMode": "Enabled",
+                "FogStrength": 1,
+                "LightColor": "0.98101,1,0.83721,1",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Radius": 400,
+                "Shadows": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "__guid": "5f9604db-e76c-4ce2-968a-4eb08309c72b",
+        "Flags": 0,
+        "Name": "ceiling_light_01a (4)",
+        "Position": "368,-56,125.4047",
+        "Rotation": "0.1183173,0.00000007305389,0.0000001965893,0.9929758",
+        "Scale": "3,6,6",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "94d73a93-c471-4cd1-ae50-9e00df668029",
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "MaterialGroup": "on",
+            "MaterialOverride": null,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "570896a4-7082-471f-962a-11e746b183de",
+            "Friction": null,
+            "IsTrigger": false,
+            "Model": "models/ceiling_light/ceiling_light_01a.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnObjectTriggerEnter": null,
+            "OnObjectTriggerExit": null,
+            "OnTriggerEnter": null,
+            "OnTriggerExit": null,
+            "Static": true,
+            "Surface": null,
+            "SurfaceVelocity": "0,0,0"
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "583aa281-91bf-4387-9b4e-080d9163b5c0",
+            "Flags": 0,
+            "Name": "Point Light",
+            "Position": "0.000002061486,0.134473,-5.118159",
+            "Rotation": "-0.234976,0.000000000000001776357,-0.00000000000004263256,0.9720012",
+            "Scale": "2,1,1",
+            "Tags": "light_point,light",
+            "Enabled": true,
+            "Components": [
+              {
+                "__type": "Sandbox.PointLight",
+                "__guid": "73398568-e587-441b-99e8-d9c429806941",
+                "Attenuation": 1,
+                "FogMode": "Enabled",
+                "FogStrength": 1,
+                "LightColor": "0.98101,1,0.83721,1",
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "Radius": 400,
+                "Shadows": true
+              }
+            ]
+          }
+        ]
       }
     ],
     "__variables": [],
@@ -29751,6 +30358,7 @@
   "ResourceVersion": 1,
   "__references": [
     "facepunch.metal_painted_blue_a_hs#29191",
+    "jammie.ceiling_light_01a#88408",
     "matek.dev_checker_orange#46467"
   ],
   "__version": 1
