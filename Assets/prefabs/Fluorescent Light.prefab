@@ -62,9 +62,9 @@
           {
             "__type": "Sandbox.SpotLight",
             "__guid": "bb50d3fc-53d0-4927-9f86-0795e3528548",
-            "Attenuation": 1.48,
-            "ConeInner": 7.56,
-            "ConeOuter": 60,
+            "Attenuation": 1,
+            "ConeInner": 15,
+            "ConeOuter": 55,
             "Cookie": null,
             "FogMode": "Enabled",
             "FogStrength": 1,
@@ -75,7 +75,7 @@
             "OnComponentFixedUpdate": null,
             "OnComponentStart": null,
             "OnComponentUpdate": null,
-            "Radius": 500,
+            "Radius": 512,
             "Shadows": true
           }
         ]
@@ -92,6 +92,32 @@
           {
             "Id": "bb50d3fc-53d0-4927-9f86-0795e3528548",
             "Property": "LightColor"
+          }
+        ]
+      },
+      {
+        "Id": "Shadows",
+        "Title": "Shadows",
+        "Description": null,
+        "Group": null,
+        "Order": 0,
+        "Targets": [
+          {
+            "Id": "bb50d3fc-53d0-4927-9f86-0795e3528548",
+            "Property": "Shadows"
+          }
+        ]
+      },
+      {
+        "Id": "Radius",
+        "Title": "Radius",
+        "Description": null,
+        "Group": null,
+        "Order": 0,
+        "Targets": [
+          {
+            "Id": "bb50d3fc-53d0-4927-9f86-0795e3528548",
+            "Property": "Radius"
           }
         ]
       }
