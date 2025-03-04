@@ -64,7 +64,7 @@
             "__guid": "bb50d3fc-53d0-4927-9f86-0795e3528548",
             "Attenuation": 1,
             "ConeInner": 15,
-            "ConeOuter": 55,
+            "ConeOuter": 75,
             "Cookie": null,
             "FogMode": "Enabled",
             "FogStrength": 1,
@@ -118,6 +118,19 @@
           {
             "Id": "bb50d3fc-53d0-4927-9f86-0795e3528548",
             "Property": "Radius"
+          }
+        ]
+      },
+      {
+        "Id": "Cone Outer",
+        "Title": "Cone Outer",
+        "Description": null,
+        "Group": null,
+        "Order": 0,
+        "Targets": [
+          {
+            "Id": "bb50d3fc-53d0-4927-9f86-0795e3528548",
+            "Property": "ConeOuter"
           }
         ]
       }
