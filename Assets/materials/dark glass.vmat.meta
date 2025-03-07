@@ -1,0 +1,21 @@
+{
+  "tags": [],
+  "publish": {
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "Dark Glass",
+      "Type": "material",
+      "Org": "drakefruit",
+      "Ident": "darkglass",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "materials/dark glass.vmat"
+      }
+    }
+  }
+}

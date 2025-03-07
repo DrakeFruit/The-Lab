@@ -44,7 +44,7 @@
         "OnObjectTriggerExit": null,
         "OnTriggerEnter": null,
         "OnTriggerExit": null,
-        "Static": false,
+        "Static": true,
         "Surface": null,
         "SurfaceVelocity": "0,0,0"
       }

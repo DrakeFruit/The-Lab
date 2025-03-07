@@ -11,7 +11,7 @@
       "Resources": null,
       "PackageReferences": [],
       "EditorReferences": null,
-      "IsWhitelistDisabled": false,
+      "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "scenes/the lab.scene",
         "ParentPackage": "facepunch.sbdm",

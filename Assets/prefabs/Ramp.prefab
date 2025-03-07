@@ -68,7 +68,7 @@
             "OnObjectTriggerExit": null,
             "OnTriggerEnter": null,
             "OnTriggerExit": null,
-            "Static": false,
+            "Static": true,
             "Surface": null,
             "SurfaceVelocity": "0,0,0"
           }
@@ -137,7 +137,7 @@
             "OnObjectTriggerExit": null,
             "OnTriggerEnter": null,
             "OnTriggerExit": null,
-            "Static": false,
+            "Static": true,
             "Surface": null,
             "SurfaceVelocity": "0,0,0"
           }
@@ -206,7 +206,7 @@
             "OnObjectTriggerExit": null,
             "OnTriggerEnter": null,
             "OnTriggerExit": null,
-            "Static": false,
+            "Static": true,
             "Surface": null,
             "SurfaceVelocity": "0,0,0"
           }
@@ -260,7 +260,7 @@
             "OnObjectTriggerExit": null,
             "OnTriggerEnter": null,
             "OnTriggerExit": null,
-            "Static": false,
+            "Static": true,
             "Surface": null,
             "SurfaceVelocity": "0,0,0"
           }
@@ -291,7 +291,7 @@
             "OnTriggerEnter": null,
             "OnTriggerExit": null,
             "Scale": "68.50608,7.59356,4.182288",
-            "Static": false,
+            "Static": true,
             "Surface": null,
             "SurfaceVelocity": "0,0,0"
           }
@@ -322,7 +322,7 @@
             "OnTriggerEnter": null,
             "OnTriggerExit": null,
             "Scale": "77.30738,90.87413,2.939479",
-            "Static": false,
+            "Static": true,
             "Surface": null,
             "SurfaceVelocity": "0,0,0"
           }

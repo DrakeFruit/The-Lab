@@ -1,0 +1,23 @@
+{
+  "MasterVolume": "0.65",
+  "LoopedSounds": [
+    {
+      "SoundFile": "sounds/inside-a-train-in-europe-63351.vsnd",
+      "Volume": "0.5"
+    },
+    {
+      "SoundFile": "sounds/ambience-tunnel-fan-090723-79253.vsnd",
+      "Volume": "0.5"
+    }
+  ],
+  "StingSounds": [
+    {
+      "SoundFile": "sounds/subway-sound-38903.sound",
+      "InstanceCount": 1,
+      "RepeatTime": "1 120",
+      "Distance": "50 100"
+    }
+  ],
+  "__references": [],
+  "__version": 0
+}
