@@ -1,0 +1,259 @@
+{
+  "RootObject": {
+    "__guid": "fe2a03ed-5d0b-4f23-ab79-701f120e7acd",
+    "Flags": 0,
+    "Name": "desk",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "160c6bcf-6838-46a2-9e5d-418fb659c07c",
+        "BodyGroups": 18446744073709551615,
+        "CreateAttachments": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/sbox_props/office_desk/office_desk.vmdl",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "Sandbox.ModelCollider",
+        "__guid": "6c4a3e28-6a08-4b4d-bcd4-90fc37e090f3",
+        "Friction": null,
+        "IsTrigger": false,
+        "Model": "models/sbox_props/office_desk/office_desk.vmdl",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnObjectTriggerEnter": null,
+        "OnObjectTriggerExit": null,
+        "OnTriggerEnter": null,
+        "OnTriggerExit": null,
+        "Static": true,
+        "Surface": null,
+        "SurfaceVelocity": "0,0,0"
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "9d952e66-7387-422a-bd2b-628e00871e77",
+        "Flags": 0,
+        "Name": "monitor_basic",
+        "Position": "-15.6745,1.077393,32",
+        "Rotation": "0,0,-0.6087614,0.7933534",
+        "Scale": "0.6,0.6,0.6",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.Prop",
+            "__guid": "1b186703-d7b2-42cc-9ec3-ae1851474666",
+            "BodyGroups": 18446744073709551615,
+            "Health": 0,
+            "IsStatic": true,
+            "MaterialGroup": null,
+            "Model": "models/items/electronics/monitor_basic.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnPropBreak": null,
+            "OnPropTakeDamage": null,
+            "StartAsleep": false,
+            "Tint": "1,1,1,1"
+          }
+        ]
+      },
+      {
+        "__guid": "461725a0-df10-4b88-80cb-bd60765fd089",
+        "Flags": 0,
+        "Name": "office_pc",
+        "Position": "26.69965,0.1136475,31.99999",
+        "Rotation": "0,0,-0.7297713,0.6836914",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.Prop",
+            "__guid": "acd23421-9096-4a37-9f27-c71b0a569dd8",
+            "BodyGroups": 18446744073709551615,
+            "Health": 0,
+            "IsStatic": true,
+            "MaterialGroup": null,
+            "Model": "models/items/electronics/office_pc.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnPropBreak": null,
+            "OnPropTakeDamage": null,
+            "StartAsleep": false,
+            "Tint": "0.11163,0.11163,0.11163,1"
+          }
+        ]
+      },
+      {
+        "__guid": "eca4a73e-6d28-4b51-8aae-c1e486d48ade",
+        "Flags": 0,
+        "Name": "computermouse",
+        "Position": "2.842163,-9.780457,31.87576",
+        "Rotation": "0,0,0.593976,0.8044826",
+        "Scale": "0.5,0.5,0.5",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "36c74af2-a4ea-4870-aa1a-10fea78a2caa",
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Model": "models/items/electronics/computermouse.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "0.11766,0.13671,0.17209,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "941e4017-7ed0-4e33-b459-4051dccc30ae",
+            "Friction": null,
+            "IsTrigger": false,
+            "Model": "models/items/electronics/computermouse.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnObjectTriggerEnter": null,
+            "OnObjectTriggerExit": null,
+            "OnTriggerEnter": null,
+            "OnTriggerExit": null,
+            "Static": true,
+            "Surface": null,
+            "SurfaceVelocity": "0,0,0"
+          }
+        ]
+      },
+      {
+        "__guid": "e9cbb81b-2154-4fe0-aa10-dbd8d7ba3082",
+        "Flags": 0,
+        "Name": "keyboard",
+        "Position": "-16.39514,-10.91278,31.89773",
+        "Rotation": "0,0,-0.6260282,0.7798005",
+        "Scale": "0.5,0.5,0.5",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "4ea022bb-7bd6-4ce7-9617-3db31a14d831",
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Model": "models/items/electronics/keyboard.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "0.11766,0.13671,0.17209,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "5176fdff-6a44-4e02-8e1b-cce8e7419a0e",
+            "Friction": null,
+            "IsTrigger": false,
+            "Model": "models/items/electronics/keyboard.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnObjectTriggerEnter": null,
+            "OnObjectTriggerExit": null,
+            "OnTriggerEnter": null,
+            "OnTriggerExit": null,
+            "Static": true,
+            "Surface": null,
+            "SurfaceVelocity": "0,0,0"
+          }
+        ]
+      }
+    ],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [
+    "facepunch.office_desk#29073",
+    "luke.computer_mouse#22884",
+    "luke.monitor_basic#22882",
+    "luke.office_keyboard#22877",
+    "luke.office_pc#22880"
+  ],
+  "__version": 1
+}
